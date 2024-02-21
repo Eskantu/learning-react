@@ -1,6 +1,6 @@
 import React from "react";
-import { useTask } from "../Hooks/useTask";
-import { useSEO } from "../Hooks/useSEOI";
+import { useTask } from "../../Hooks/useTask";
+import { useSEO } from "../../Hooks/useSEOI";
 
 export function TodoList() {
 	// llamamos al hook useSEO con el título y la descripción
